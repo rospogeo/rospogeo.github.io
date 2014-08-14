@@ -1,0 +1,37 @@
+{
+  "name": "rospogeo-map",
+  "version": "0.1.0",
+  "homepage": "https://github.com/rospogeo/rospogeo-map",
+  "description": "map is the basic directive for the development of GIS applications",
+  "keywords": [
+    "rospo",
+    "map",
+    "gis",
+    "geo",
+    "layer"
+  ],
+  "authors": [
+    "daniel.joppi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.21",
+    "openlayers": "~2.13.1"
+  },
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "9447aeb99a7c6efe7f1012cb24fddacb2b1f72f9"
+  },
+  "_source": "git://github.com/rospogeo/rospogeo-map.git",
+  "_target": "~v0.1.0",
+  "_originalSource": "rospogeo-map"
+}

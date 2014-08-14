@@ -1,3 +1,48 @@
-<html>
-<body>project in plain phase ... wait a few days<body>
-<html>
+<!DOCTYPE html>
+<html ng-app="rospogeo" ng-controller="GeoMapCtrl">
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <title>Example RospoGeo Map</title>
+
+    <script src="/vendors/angular/angular.min.js" ></script>
+    <link rel="stylesheet" href="/vendors/openlayers/theme/default/style.css" type="text/css">
+    <link rel="stylesheet" href="/vendors/openlayers/theme/default/google.css" type="text/css">
+    <link rel="stylesheet" href="/vendors/openlayers/examples/style.css" type="text/css">
+
+    <script src="http://maps.google.com/maps/api/js?v=3&amp;sensor=false"></script>
+    <script src="/vendors/openlayers/lib/OpenLayers.js" ></script>
+    <script src="lib/rospogeo-map-0.1.0-min.js"></script>
+    <script>
+        var geo = angular.module('rospogeo', ['rospgeo.map']);
+        geo.controller('GeoMapCtrl', function ($scope) {
+            console.log($scope);
+        });
+
+    </script>
+
+</head>
+<body>
+<map id="rospo" width="100" height="100">
+    <layers>
+        <layer type="WMS" name="OpenLayers WMS" url="http://vmap0.tiles.osgeo.org/wms/vmap0" layers="basic" ></layer>
+        <layer type="Google" ></layer>
+    </layers>
+</map>
+<br/>
+<hr/>
+<h1>Code to generate this map: </h1>
+    <pre>
+        <code>
+            &lt;map id="rospo" width="100" height="100"&gt;
+            &lt;layers&gt;
+            &lt;layer type="WMS" name="OpenLayers WMS" url="http://vmap0.tiles.osgeo.org/wms/vmap0" layers="basic" &gt;&lt;/layer&gt;
+            &lt;layer type="Google" &gt;&lt;/layer&gt;
+            &lt;/layers&gt;
+            &lt;/map>
+        </code>
+    </pre>
+</body>
+</html>
