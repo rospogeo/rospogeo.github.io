@@ -1,6 +1,6 @@
 {
   "name": "rospogeo-map",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/rospogeo/rospogeo-map",
   "description": "map is the basic directive for the development of GIS applications",
   "keywords": [
@@ -25,13 +25,13 @@
     "angular": "~1.2.21",
     "openlayers": "~2.13.1"
   },
-  "_release": "0.1.0",
+  "_release": "0.2.0",
   "_resolution": {
     "type": "version",
-    "tag": "v0.1.0",
-    "commit": "9447aeb99a7c6efe7f1012cb24fddacb2b1f72f9"
+    "tag": "v0.2.0",
+    "commit": "cefaf3f696e3999aa776d296626684ca25b3518d"
   },
   "_source": "git://github.com/rospogeo/rospogeo-map.git",
-  "_target": "~v0.1.0",
+  "_target": "~v0.2.0",
   "_originalSource": "rospogeo-map"
 }

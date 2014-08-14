@@ -44,3 +44,9 @@ Demo
 ----------
 
 [http://rospogeo.github.io/rospogeo-map](http://rospogeo.github.io/rospogeo-map)
+
+
+Installation
+----------
+
+    bower install rospogeo-map
