@@ -22,6 +22,6 @@
     "tests"
   ],
   "dependencies": {
-    "rospogeo-map": "~v0.1.0"
+    "rospogeo-map": "~v0.2.0"
   }
 }
